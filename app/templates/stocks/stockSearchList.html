@@ -1,0 +1,5 @@
+<ul>
+<% _.each(json, function(item) { %>
+	<li data-symbol="<%=item.Symbol%>"><b><%=item.Symbol%></b> - <%= item.Name %></li>
+<% }); %>
+</ul>

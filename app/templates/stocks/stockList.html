@@ -1,0 +1,5 @@
+<ul>
+<% _.each(json, function(item) { %>
+	<li data="<%=item.name%>"><%=item.name%> <%= item.last %> (<%= item.change %>%)</li>
+<% }); %>
+</ul>
